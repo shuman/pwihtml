@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PWI Marketing</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<!-- Fevicon -->
+	<link rel="icon" href="favicon.png" type="png" />
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- flexslider -->
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+
+	<!-- animate -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+	<!-- fonts -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<style>
+		#space-canvas {width: 100%;}
+		#game-container .button { position:absolute; border:1px solid pink; }
+		#left-controls { position:absolute; left:1px; bottom:0px; display:none; }
+		#right-controls { position:absolute; right:1px; bottom:0px; display:none; }
+		#up { width:200px; height:100px; bottom:100px;}
+		#left { width:100px; height:100px; bottom:0px;}
+		#right { width:100px; height:100px; bottom:0px; left:100px; }
+		#space { width:200px; height:200px; bottom:0px; right:0px; }
+		#preload-01 { background: url(gamesource/game1/newship.png) no-repeat -9999px -9999px; }
+		#preload-02 { background: url(gamesource/game1/alien.png) no-repeat -9999px -9999px; }
+	</style>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+	<div class="wrap">
+		<header id="header">
+			<div class="head_top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="logo_pwi"><a class="logo_bg" href="index.html"></a></div>
+							<div class="menu_icon">
+								<button class="menu_btn" data-target="#responsive_menu">
+									<span class="fa fa-bars"></span>
+									<span class="fa fa-times"></span>
+								</button>
+							</div>
+						</div>
+					</div><!-- /row -->
+				</div>
+			</div><!-- /head_top -->
+
+			<div id="responsive_menu" class="" role="navigation">
+				<div class="menu_container">
+					<div class="container">
+						<ul class="pwi_nav">
+							<li class="sub_menu">
+								<a href="#">Case Studies</a>
+								<ul class="sub_menu_content">
+									<li><a href="body_glove.html">Body Glove</a></li>
+									<li><a href="chipotle_case.html">Chipotle</a></li>
+									<li><a href="orphanetwork.html">ORPHANetwork</a></li>
+									<li><a href="ralph_lauren.html">Ralph Lauren</a></li>
+								</ul>
+							</li>
+							<li class="sub_menu">
+								<a href="service.html">Services</a>
+								<ul class="sub_menu_content">
+									<li><a href="web_app_development.html">App & Web Development</a></li>
+									<li><a href="marketing.html">Marketing</a></li>
+									<li><a href="design.html">Design</a></li>
+									<li><a href="grant_writing.html">Advertising Grant</a></li>
+									<li><a href="film_and_video.html">Film & Video</a></li>
+									<li><a href="consulting.html">Consulting</a></li>
+								</ul>
+							</li>
+							<!--<li><a href="resource.html">Resources</a></li>-->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div><!-- /responsive_menu -->
+		</header><!-- /header -->
+
+		<section class="home_slider">
+			<div class="slider_content">
+				<div id="home_slider" class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="ms_slider_item homeSliderHeight" style="background-position:50% 50%; background-size:cover; background-image:url('images/pwi_marketingwebsite_sliders_astronaut.gif');">&nbsp;</div>
+						</li><!-- /ms_slider_item -->
+
+						<li>
+                            <div class="homeSliderHeight" style="background-color:#33aef4;">
+							<div class="ms_slider_item">
+								<div id="game-container">
+									<canvas id="space-canvas" width="1920" height="950" style="background-image:url('gamesource/game1/background.png');"></canvas>
+									<div id="left-controls">
+										<div id="up" class='button'>THRUST</div>
+										<div id="left" class='button'>LEFT</div>
+										<div id="right" class='button'>RIGHT</div>
+									</div>
+									<div id="right-controls">
+										<div id="space" class='button'>FIRE</div>
+									</div>
+								</div>
+							</div>
+                            </div>
+						</li><!-- /ms_slider_item -->
+
+						<li>
+							<div class="ms_slider_item homeSliderHeight" style="background-position:50% 50%; background-size:cover; background-image:url('images/pwi_marketingwebsite_sliders_launch.gif');">&nbsp;</div>
+						</li><!-- /ms_slider_item -->
+
+						<li>
+							<div class="ms_slider_item homeSliderHeight" style="background-position:50% 50%; background-size:cover; background-image:url('images/pwi_marketingwebsite_sliders_satellite.gif');">&nbsp;</div>
+						</li><!-- /ms_slider_item -->
+					</ul>
+				</div>
+				
+				<div class="home_scroll_title">
+					<a class="button arrow_bottom" href="#project_clients">Projects & Clients</a>
+
+					<ul class="right_selection">
+						<li class="active"><a href="#home_slider"></a></li>
+						<li><a href="#project_clients"></a></li>
+						<li><a href="#service"></a></li>
+						<!--li><a href="#the_team"></a></li-->
+					</ul>
+				</div><!-- /home_sec_title -->
+			</div>
+		</section><!-- /home_slider -->
+
+		<section id="project_clients" class="home_sec_block project_clients">
+			<div class="container">
+				<div class="pc_content">
+					<div class="home_sec_title">
+						<h2>Projects & Clients</h2>
+					</div>
+
+					<div class="feature_box">
+						<ul>
+							<li>
+								<a href="orphanetwork.html"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>ORPHANetwork</span>
+									<span><em>&nbsp;</em></span>
+								</div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="chipotle_case.html"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Chipotle</span>
+									<span><em>&nbsp;</em></span>
+								</div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="ralph_lauren.html"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Ralph Lauren</span>
+									<span><em>&nbsp;</em></span>
+								</div>
+							</li><!-- /feature_item -->
+                            <!--
+							<li>
+								<a href="#"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Client Name</span>
+									<span><em>Project</em></span>
+								</div>
+							</li>
+
+							<li>
+								<a href="#"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Client Name</span>
+									<span><em>Project</em></span>
+								</div>
+							</li>
+
+							<li>
+								<a href="#"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Client Name</span>
+									<span><em>Project</em></span>
+								</div>
+							</li>
+
+							<li>
+								<a href="#"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Client Name</span>
+									<span><em>Project</em></span>
+								</div>
+							</li>
+
+							<li>
+								<a href="#"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Client Name</span>
+									<span><em>Project</em></span>
+								</div>
+							</li>
+
+							<li>
+								<a href="#"><i class="fa fa-diamond"></i></a>
+								<div class="ftr_title">
+									<span>Client Name</span>
+									<span><em>Project</em></span>
+								</div>
+							</li>-->
+
+						</ul>
+					</div>
+
+					<div class="home_scroll_title">
+						<a class="button arrow_bottom clr" href="#service">Marketing Services </a>
+					</div><!-- /home_sec_title -->
+				</div><!-- /section_content -->
+			</div>
+		</section><!-- /project_clients -->
+
+		<section id="service" class="home_sec_block">
+			<div class="container">
+				<div class="pc_content">
+					<div class="home_sec_title">
+						<h2>Services</h2>
+					</div>
+
+					<div class="feature_box">
+						<ul>
+							<li>
+								<a href="web_app_development.html"><span><div class="service_icon icon_web_app_clr"></div></span></a>
+								<div class="ftr_title"><span>Web Development</span></div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="marketing.html"><span><div class="service_icon icon_marketing_clr"></div></span></a>
+								<div class="ftr_title"><span>Marketing</span></div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="design.html"><span><div class="service_icon icon_design_clr"></div></span></a>
+								<div class="ftr_title"><span>Design</span></div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="grant_writing.html"><span><div class="service_icon icon_grant_writing_clr"></div></span></a>
+								<div class="ftr_title"><span>Grant Writing</span></div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="film_and_video.html"><span><div class="service_icon icon_video_clr"></div></span></a>
+								<div class="ftr_title"><span>Film/Video & Recording</span></div>
+							</li><!-- /feature_item -->
+
+							<li>
+								<a href="consulting.html"><span><div class="service_icon icon_consulting_clr"></div></span></a>
+								<div class="ftr_title"><span>Consulting</span></div>
+							</li><!-- /feature_item -->
+
+						</ul>
+					</div><!-- /feature_box -->
+
+					<!--div class="home_scroll_title">
+						<a class="button arrow_bottom clr" href="#the_team">Contact Information</a>
+					</div><!-- /home_sec_title -->
+				</div><!-- /section_content -->
+			</div>
+		</section><!-- /service -->
+
+        <!--
+		<section id="the_team" class="home_sec_block">
+			<div class="container">
+				<div class="home_sec_title">
+					<h2>The Team</h2>
+				</div>
+				<div class="row">
+					<ul class="team_content">
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+
+						<li class="col-sm-3 col-xs-6">
+							<div class="team_member">
+								<div class="member_pic">
+									<img src="images/member_icon.png" alt="member_icon">
+								</div>
+
+								<div class="member_title">
+									<span class="member_name">First, Last Name</span>
+									<span class="member_position">Position</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>-->
+
+		<footer id="footer">
+			<div class="container">
+				<div class="footer_logo">
+					<a class="logo_pwi_text" href="index.html">
+						<span class="text_light">Project</span>
+						<span class="text_semibold">World</span>
+						<span class="text_bolder">Impact</span>
+					</a><!-- /logo_pwi_text -->
+				</div>
+
+				<div class="footer_social">
+					<ul>
+						<li><a href="https://www.facebook.com/ProjectWorldImpact"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.pinterest.com/prjworldimpact/"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://instagram.com/projectworldimpact/"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://twitter.com/prjworldimpact"><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+					</ul>
+				</div>
+
+			</div>
+		</footer><!-- /footer -->
+
+	</div><!-- /wrap -->
+
+	<a class="scrollup" id="linkTop" href="#"></a>
+
+	<script>
+		jQuery(document).ready(function($) {
+			$('#home_slider').flexslider({
+				animation: "slide",
+				slideshowSpeed: 5000,
+				animationSpeed: 400,
+				controlNav: false,
+				directionNav: true,
+				slideshow: false,
+				smoothHeight: true,
+				keyboard: false
+			});
+
+		});
+	</script>
+	<script type="text/javascript" src="gamesource/game1/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="gamesource/game1/vector_battle_regular.typeface.js"></script>
+	<script type="text/javascript" src="gamesource/game1/ipad.js"></script>
+	<script type="text/javascript" src="gamesource/game1/game.js"></script>
+    <script>
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+ m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+        ga('create', 'UA-42851086-4', 'auto');
+
+        ga('send', 'pageview');
+
+
+
+</script>
+</body>
+</html>

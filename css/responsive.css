@@ -1,0 +1,1504 @@
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.seo_section h2 {
+		padding-left: 65px;
+	}
+	.seo_section span {
+		left: 0;
+	}
+	/*-------------------body_glove_end--------------------*/
+	#section4_app_design .ecommerce_text h2 {
+		padding-left: 65px;
+	}
+	#section4_app_design .ecommerce_text span {
+		left: 0;
+	}
+	/*-------------------chipotle_case_end--------------------*/
+
+	#section4_orphan_email {
+		padding-bottom: 100px;
+	}
+	#section4_orphan_email .email_img img {
+		max-width: 55%;
+		margin-bottom: 20px;
+	}
+	/*--------------------slider-----------------------------*/
+	#multipul_img_slider {
+		margin-left: -10px;
+	}
+	#multipul_img_slider .mid {
+		display: none;
+	}
+	#multipul_img_slider a.next,
+	#multipul_img_slider a.prev {
+		display: block;
+
+	}
+	.diplay_none {
+		visibility: visible; 
+	}
+	.advertising_img{
+		margin-left: 0;
+	}
+
+	.sec_title_grant_wr::before{
+		right: -150px;
+	}
+
+	.ecommerce_text p{
+		max-width: 180px;
+	}
+
+	.chipotle_seo_img{
+		max-width: 610px;
+		top: 80px;
+	}
+
+	#cs_sec_advertising{
+		min-height: 800px;
+	}
+
+	.poster_text_img p{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	#header{
+		padding: 0;
+	}
+	#header .head_top{
+		padding: 5px 0;
+	}
+	#header .menu_btn{
+		margin: 12px 0;
+	}
+
+	#header .logo_pwi .logo_bg{
+		width: 50px;
+		height: 50px;
+	}
+	.menu_container{
+		padding-top: 70px;
+	}
+
+	.text h2 {
+		font-size: 40px;
+	}
+	.seo_section h2 {
+		padding-left: 65px;
+	}
+	.seo_section span {
+		left: 0;
+	}
+	.email_text,
+	.ecommerce_text {
+		margin-left: 10%;
+	}
+	.email_text p {
+		max-width: 65%;
+	}
+	.email_img img {
+		margin-top: 0;
+	}
+	.email_img {
+		margin: 0 5%;
+	}
+	/*---------------------body_glove_end---------------------*/
+	.advertising_img {
+		margin-left: 0%;
+	}
+	#section3_advertising .social_text h2 {
+		padding-left: 0;
+	}
+	#section4_app_design .ecommerce_text h2 {
+		padding-left: 65px;
+	}
+	#section4_app_design .ecommerce_text span {
+		left: 0;
+	}
+	/*-------------------chipotle_case_end----------------------*/
+	#section4_orphan_email {
+		padding-bottom: 100px;
+	}
+	#section4_orphan_email .email_img img {
+		max-width: 650px;
+		margin-bottom: 120px;
+		margin-top: 20px;
+	}
+	#section4_orphan_email .email_text p {
+		max-width: 400px;
+	}
+	/*--------------------slider-----------------------------*/
+	#multipul_img_slider {
+		margin-left: -10px;
+	}
+	#multipul_img_slider .mid {
+		display: none;
+	}
+	#multipul_img_slider a.next,
+	#multipul_img_slider a.prev {
+		display: block;
+	}
+
+	.text span{
+		top: -5px;
+	}
+	/** casestudies page end**/
+
+	.sub_menu {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+
+	.pwi_nav > li.sub_menu:hover ul.sub_menu_content,
+	.sub_menu ul.sub_menu_content, 
+	.pwi_nav > li.sub_menu > a{
+		display: block;
+	}
+
+	.sub_menu ul.sub_menu_content li a{
+		padding: 7px 20px;
+		display: inline-block;
+		width: 100%;
+		color: #35aef4;
+		text-shadow: 0 1px #fff;
+	}
+	.sub_menu ul.sub_menu_content li{
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.pwi_nav > li:hover,
+	.pwi_nav > li.sub_menu:hover{
+		background: none;
+	}
+
+	.pwi_nav > li.sub_menu a, 
+	.pwi_nav > li > a{
+		background: none !important;
+		color: #35aef4 !important;
+	}
+
+	.pwi_nav > li > a:hover,
+	.pwi_nav > li.sub_menu ul.sub_menu_content li a:hover{
+		background: #35aef4 !important;
+		color: #fff !important;
+	}
+
+	.feature_box li a{
+		height: 230px;
+	}
+	.feature_box li:hover a{
+		border-width: 5px;
+	}
+	.ftr_title{
+		font-size: 16px;
+	}
+
+	.feature_box li a span img{
+		max-width: 170px;
+	}
+	
+	.right_selection{
+		right: 15px;
+	}
+
+	.home_sec_block {
+		padding-bottom: 100px;
+		padding-top: 120px;
+	}
+	.sec_block_150{
+		padding-top: 100px;
+		padding-bottom: 70px;
+	}
+	.member_title{
+		height: 60px;
+	}
+	.member_title .member_name{
+		font-size: 18px;
+	}
+	.member_title .member_position{
+		font-size: 15px;
+	}
+	.member_pic{
+		max-width: 150px;
+	}
+
+	.sec_desc p{
+		font-size: 16px;
+	}
+	.digital_sec_text{
+		max-width: 550px;
+	}
+	.banner .banner_icon{
+		max-width: 220px;
+	}
+
+	.video_section{
+		margin-bottom: 0;
+	}
+
+	.marketing_text_bottom{
+		max-width: 320px;
+	}
+	.marketing_text_top{
+		max-width: 330px;
+	}
+	.lean_img_box {
+		min-height: 360px;
+	}
+	.lean_img{
+		background: url(../images/lean_graf_bg_short.png) no-repeat top center;
+		background-size: 100% 100%;
+		min-height: 370px;
+		max-width: 500px;
+		height: 100%;
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: 0 auto;
+	}
+	.lean_img img{
+		display: none;
+	}
+
+	.social_group_icon{
+		max-width: 580px;
+		top: 130px;
+	}
+
+	.maze_pics{
+		margin-top: 0;
+	}
+
+	.app_text{
+		top: 110px;
+	}
+	.mobile_screen_img{
+		max-width: 90%;
+	}
+	.program_step_img{
+		width: 100%;
+	}
+
+	.slider_mac{
+		width: 720px;
+		padding: 27px 21px;
+		height: 588px;
+	}
+	.screen_slider{
+		width: 678px;
+		height: auto;
+	}
+	.convene_content{
+		margin: 20px 0;
+	}
+	.nav-tabs > li > a{
+		height: 80px;
+		width: 80px;
+	}
+	#tabMenu{
+		width: 105px;
+	}
+	.tab-content{
+		padding-left: 130px;
+	}
+
+	.cf_desc span a{
+		width: 170px;
+	}
+
+	.advertising_img{
+		display: block;
+	}
+
+	.openNav #responsive_menu .pwi_nav{
+		height: 100%;
+		max-height: 300px;
+		overflow-y: scroll;
+	}
+
+	.sec_title_grant_wr::before{
+		right: -170px;
+	}
+
+	.marketing_sec_img{
+		margin: 0 0 50px;
+	}
+
+	.marketing_text_bottom,
+	.marketing_text_top{
+		max-width: 280px;
+	}
+	.marketing_text_bottom p,
+	.marketing_text_top p{
+		font-size: 15px;
+	}
+
+	.preview_img{
+		max-width: 65%;
+	}
+
+	.ecommerce_text p{
+		max-width: 180px;
+	}
+
+	.chipotle_seo_img{
+		left: auto;
+		max-width: 100%;
+		position: relative;
+	}
+
+	#cs_seo .left_200{
+		max-width: 100%;
+	}
+
+	#cs_sec_advertising{
+		min-height: 750px;
+	}
+
+	.homeSliderHeight{
+		height: 400px !important;
+	}
+
+	.poster_text_img p {
+		left: auto;
+		margin-top: 20px;
+		max-width: 100%;
+		position: relative;
+		right: auto;
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px){
+
+	#header{
+		padding: 0;
+	}
+	#header .head_top{
+		padding: 5px 0;
+	}
+	#header .menu_btn{
+		margin: 12px 0;
+	}
+
+	#header .logo_pwi .logo_bg{
+		width: 50px;
+		height: 50px;
+	}
+	.menu_container{
+		padding-top: 70px;
+	}
+
+	.body_glove_img{
+		margin-bottom: 100px;
+		margin-top: 33px;
+	}
+	#section1_mobile {
+		padding-top: 100px;
+		padding-right: 10px;
+	}
+	#section2_seo{
+		padding: 120px 0 150px;
+	}
+	#section3_social{
+		padding-bottom: 150px;
+		padding-right: 10px;
+	} 
+	.social_media {
+		margin-top: 100px;
+	}
+	#section3_social .social_text {
+		margin-top: 0;
+		
+	}
+	#section4_ecommerce {
+		padding: 100px 0 150px;
+		padding-right: 10px;
+	}
+
+	.text span,
+	.text h2 {
+		font-size: 36px;
+	}
+	.text h2 {
+		padding-left: 50px;
+	}
+
+	.text span {
+		left: 0;
+	}
+	.social_text {
+		margin-top: 0px;
+		padding-left: 0;
+
+	}
+	.social_text span {
+		top: 0;
+	}
+	.social_text h2 {
+		padding-left: 50px;
+	}
+	.social_text {
+		padding-left: 0;
+	}
+	.social_icon ul li {
+		max-width: 20%;
+	}
+	.ecommerce_text {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.ecommerce_text p {
+		max-width: 35%;
+	}
+	.preview_img {
+		max-width: 59%;
+	}
+	.email_text {
+		margin-left: 15px;
+	}
+	.email_text p {
+		max-width: 65%;
+	}
+	.email_img img {
+		margin-top: 40px;
+	}
+	.email_img {
+		margin: 0 5%;
+	}
+	.small_logo {
+		margin-top: 100px;
+	}
+	/*------------------body_glove_end-----------------------*/
+	
+	#section2_chipotle_seo .preview_img {
+		margin-top: 0px;
+	}
+	.advertising_img {
+		margin-left: 0%;
+	}
+	#section3_advertising .social_text {
+		max-width: 100%;
+		margin-bottom: 100px;	
+	}
+	#section3_advertising .social_text h2 {
+		padding-left: 0;
+	}
+	/*--------------------chipotle_case_end--------------------*/
+	#section2_ralph_seo {
+		padding-top: 180px;
+	}
+	#section2_ralph_seo .preview_img {
+		margin-top: -130px;
+	}
+	#section3_ralph_advertising {
+		padding-top: 200px;
+	}
+
+	#section3_ralph_advertising .social_text h2 {
+		padding-left: 0;
+	}
+	#section3_ralph_advertising .advertising_img img {
+		width: 100%;
+	}
+	#section4_ralph_design {
+		padding-top: 150px;
+	}
+	/*-------------------ralph_lauren_end--------------------*/
+	#section1_orphan .body_glove_img img {
+		max-width: 80%;
+	}
+	#section1_orphan {
+		padding-top: 100px;
+	}
+	#section1_orphan .glove_text_who {
+		margin-bottom: 40px;
+	}
+	#section2_orphan_design {
+		padding-top: 100px;
+	}
+	#section3_orphan_website {
+		padding-top: 200px;
+	}
+	#section3_orphan_website .preview_img {
+		margin-top: -100px;
+	}
+	
+	#section4_orphan_email {
+		padding-bottom: 100px;
+		padding-top: 100px;
+	}
+	#section4_orphan_email .email_img img {
+		max-width: 650px;
+		margin-bottom: 120px;
+		margin-top: 20px;
+	}
+	#section4_orphan_email .email_text p {
+		max-width: 400px;
+	}
+	#section4_orphan_email .mail_champ {
+		left: 30px;
+	}
+	#section5_orphan_marketing .email_text {
+		margin-top: 100px;
+	}
+	.network_icon a img {
+		padding-bottom: 50px;
+	}
+	/*--------------------slider-----------------------------*/
+	#multipul_img_slider {
+		margin-left: -10px;
+	}
+	#multipul_img_slider .mid {
+		display: none;
+	}
+	#multipul_img_slider a.next,
+	#multipul_img_slider a.prev {
+		display: block;
+	}
+
+	/** casestudies page end **/
+
+	.container{
+		width: 100%;
+	}
+	.container > .navbar-header, .container > .navbar-collapse,
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.logo_pwi a{
+		width: 50px;
+	}
+	.menu_btn:hover, .menu_btn:active, .menu_btn:focus, .menu_btn{
+		margin: 10px 0;
+	}
+
+	.main_menu .nav > li > a{
+		font-size: 18px;
+		padding: 
+	}
+	
+	.scrollup{
+		display: none !important;
+	}
+
+	.sub_menu {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+
+	.pwi_nav > li > a{
+		font-size: 20px;
+	}
+
+	.pwi_nav > li.sub_menu:hover ul.sub_menu_content,
+	.sub_menu ul.sub_menu_content, 
+	.pwi_nav > li.sub_menu > a{
+		display: block;
+	}
+
+	.sub_menu ul.sub_menu_content li{
+		padding-left: 10px;
+	}
+	.sub_menu ul.sub_menu_content li a{
+		padding: 4px 15px;
+		display: inline-block;
+		width: 100%;
+		color: #35aef4;
+		text-shadow: 0 1px #fff;
+	}
+	.sub_menu ul.sub_menu_content li{
+		float: none;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.pwi_nav > li:hover,
+	.pwi_nav > li.sub_menu:hover{
+		background: none;
+	}
+
+	.pwi_nav > li.sub_menu a, 
+	.pwi_nav > li > a{
+		background: none !important;
+		color: #35aef4 !important;
+	}
+
+	.pwi_nav > li > a:hover,
+	.pwi_nav > li.sub_menu ul.sub_menu_content li a:hover{
+		background: #35aef4 !important;
+		color: #fff !important;
+	}
+
+	.feature_box li{
+		display: block;
+		float: none;
+		margin: 0 auto 15px;
+		width: 280px;
+	}
+	.feature_box li a{
+		height: 280px;
+	}
+	.feature_box li a span img{
+		max-width: 170px;
+	}
+	.feature_box li:hover a{
+		border-width: 5px;
+	}
+	.ftr_title{
+		font-size: 16px;
+	}
+	.home_sec_title{
+		text-align: center;
+		padding-left: 0;
+	}
+	.right_selection{
+		right: 15px;
+	}
+
+	#service_single .home_sec_title{
+		text-align: center;
+	}
+
+	.home_sec_block {
+		padding-bottom: 100px;
+		padding-top: 120px;
+	}
+
+	.member_pic{
+		max-width: 170px;
+	}
+
+	.digital_sec_text{
+		position: relative;
+		left: auto;
+		top: auto;
+		max-width: 100%;
+	}
+	.banner .banner_icon{
+		max-width: 200px;
+	}
+
+	.sec_desc p{
+		font-size: 16px;
+	}
+
+	
+	.right_320,
+	.right_420,
+	.right_520,
+	.left_420,
+	.left_520,
+	.left_320{
+		float: none;
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	.sec_desc img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.video_section{
+		margin-bottom: 0;
+	}
+
+	.sec_content h1{
+		font-size: 40px;
+	}
+
+	.sec_block_150{
+		padding-top: 100px;
+		padding-bottom: 70px;
+	}
+
+	.lean_img{
+		background: url(../images/lean_graf_bg_short.png) no-repeat top center;
+		background-size: 100% 100% ;
+		min-height: 500px;
+		max-width: 500px;
+		height: 100%;
+		width: 100%;
+		position: relative;
+		display: block;
+		margin: 0 auto;
+	}
+	.lean_img img{
+		display: none;
+	}
+	#sec_strategic_planing .stg_planing_content{
+		padding-top: 50px;
+	}
+	.lean_img_box{
+		min-height: 100%;
+	}
+
+	.marketing_text_bottom,
+	.marketing_text_top{
+		position: relative;
+		top: auto;
+		right: auto;
+		left: auto;
+		bottom: auto;
+		max-width: 100%;
+		padding: 0 0 30px ;
+	}
+	.marketing_text_bottom{
+		padding: 30px 0 0;
+	}
+
+	#sec_marketing .marketing_sec_img{
+		max-width: 500px;
+		width: 100%;
+	}
+
+	.social_group_icon {
+		position: relative;
+		right: auto;
+		top: auto;
+		width: 100%;
+		display: block;
+	}
+
+	.social_icon{
+		padding: 0;
+	}
+	.maze_pics{
+		margin-top: 0;
+	}
+	#sec_remarketing .remarketing_desc{
+		padding-top: 0;
+	}
+
+	.app_text {
+		margin: 40px auto 0;
+		max-width: 400px;
+		padding: 0;
+		position: relative;
+		right: auto;
+		top: auto;
+	}
+
+	.program_step_img{
+		width: 100%;
+	}
+
+	.slider_mac{
+		width: 550px;
+		padding: 16px 16px;
+		height: 442px;
+	}
+	.screen_slider{
+		width: 517px;
+		height: auto;
+	}
+
+	.convene_content{
+		margin: 20px 0;
+	}
+	.nav-tabs > li > a{
+		height: 80px;
+		width: 80px;
+	}
+	#tabMenu{
+		width: 105px;
+	}
+	.tab-content{
+		padding-left: 130px;
+	}
+
+	#section4_app_design .multipul_mobile2{
+		height: 450px;
+		background-size: cover;
+	}
+
+	.advertising_img{
+		display: block;
+	}
+	
+	.openNav #responsive_menu .pwi_nav{
+		height: 100%;
+		overflow-y: scroll;
+	}
+
+	.sec_title_grant_wr{
+		padding-right: 120px;
+	}
+	.sec_title_grant_wr:before{
+		width: 150px;
+		height: 145px;
+	}
+
+	.chipotle_seo_img{
+		left: auto;
+		max-width: 100%;
+		position: relative;
+	}
+
+	#cs_seo .left_200{
+		max-width: 100%;
+	}
+
+	.cs_sec_title{
+		padding-left: 55px;
+	}
+	.cs_sec_title h1{
+		margin-bottom: 20px;
+	}
+
+	#cs_sec_advertising{
+		min-height: 600px;
+	}
+
+	.left_200,
+	#cs_app_design .left_200,
+	#cs_app_design .cs_sec_title,
+	#cs_sec_advertising .left_200,
+	#cs_sec_advertising .cs_sec_title{
+		max-width: 100%;
+		float: left;
+	}
+
+	.app_design_icon {
+		float: none;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.app_design_icon img{
+		width: 80%;
+		max-width: 300px;
+	}
+
+	.flexslider:hover .flex-next, 
+	.flex-direction-nav .flex-next,
+	.flexslider:hover .flex-prev, 
+	.flex-direction-nav .flex-prev{
+		height: 50px;
+		margin-top: -25px;
+	}
+
+	.pwi_nav > li{
+		margin: 0;
+	}
+
+	.sub_title h2{
+		font-size: 40px;
+	}
+
+	#cs_ralph_advertising{
+		padding-top: 100px;
+	}
+	.title_bottom {
+		bottom: auto;
+		position: relative;
+		right: auto;
+	}
+	#cs_ralph_advertising .billboard_img{
+		position: relative;
+		left: auto;
+		bottom: auto;
+	}
+
+	#cs_ralph_advertising .sec_content{
+		min-height: 100px;
+	}
+
+	.glove_text_who,
+	.glove_text_who p{
+		max-width: 100%;
+		float: none;
+	}
+
+	#cs_ralph_seo .erl_logo{
+		left: 50%;
+		margin-left: -65px;
+	}
+
+	#client_page_content{
+		min-height: 600px;
+	}
+
+	.home_slider .home_scroll_title .arrow_bottom{
+		top: -100px;
+	}
+
+	.homeSliderHeight{
+		height: 370px !important;
+	}
+
+	.poster_text_img p {
+		left: auto;
+		margin: 15px 15px 0 15px;
+		max-width: 100%;
+		position: relative;
+		right: auto;
+		font-size: 16px;
+	}
+
+	.onet_poster_container {
+		height: 700px;
+		margin: 0 auto;
+		position: relative;
+		width: 450px;
+	}
+
+	.vbar{
+		height: 560px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 690px){
+	.homeSliderHeight{
+		height: 340px !important;
+	}
+}
+@media only screen and (max-width: 600px){
+
+	.body_glove_img{
+		margin-bottom: 100px;
+		margin-top: 33px;
+	}
+	#section1_mobile {
+		padding-top: 100px;
+		padding-right: 10px;
+	}
+	#section2_seo{
+		padding: 120px 0 150px;
+	}
+	#section3_social{
+		padding-bottom: 150px;
+		padding-right: 10px;
+	} 
+	.social_media {
+		margin-top: 100px;
+	}
+	#section3_social .social_text {
+		margin-top: 0;
+		
+	}
+	#section4_ecommerce {
+		padding: 100px 0 150px;
+		padding-right: 10px;
+	}
+	.social_text {
+		width: 100%;
+		max-width: 100%;
+		float: left;
+	}
+	.social_icon{
+		max-width: 100%;
+		width: 100%;
+		margin-top: 40px;
+	}
+	.social_icon ul {
+		max-width: 100%;
+		width: 100%;
+		padding: 30px 15px 15px 30px;
+	}
+	.social_icon ul li {
+		width: 13.4%;
+		margin-right: 2%;
+		margin-bottom: 15px;
+	}
+	.ecommerce_text p {
+		max-width: 100%;
+	}
+	.preview_img {
+		max-width: 100%;
+		margin: 30px auto 0;
+	}
+	.email_text p {
+		max-width: 85%;
+	}
+
+	/*-----------------------body_glove_end----------------------*/
+
+	#section1_chipotle {
+		padding-right: 10px;
+		padding-top: 150px;
+	}
+	#section1_chipotle .glove_text {
+		margin-bottom: 40px;
+	}
+	#section1_chipotle .body_glove_img {
+		margin-top: 20px;
+		margin-bottom: 150px;
+	}
+	#section2_chipotle_seo {
+		padding-top: 100px;
+	}
+	#section2_chipotle_seo .preview_img {
+		margin-top: 20px;
+	}
+	#section2_chipotle_seo .ecommerce_text {
+		padding-right: 10px;
+		margin-bottom: 100px;
+	}
+
+	#section3_advertising .social_text span {
+		left: 0;
+	}
+	#section3_advertising .social_text span {
+		left: 0;
+	}
+	#section3_advertising .social_text h2 {
+		padding-left: 60px;
+	}
+	#section4_app_design {
+		padding-top: 100px;
+	}
+	#section4_app_design .preview_img {
+		margin-top: 0;
+		text-align: center;
+	}
+	#section4_app_design .preview_img img{
+		display: inline-block;
+	}
+	#section4_app_design .ecommerce_text {
+		margin-bottom: 100px;
+	}
+	#section4_app_design .ecommerce_text p {
+		max-width: 350px;
+	}
+	/*------------------------chipotle_case_end-------------------*/
+
+	#section1_ralph {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	#section1_ralph .body_glove_img {
+		margin-top: 0px;
+	}
+	#section2_ralph_seo {
+		padding-top: 100px;
+	}
+	#section2_ralph_seo .preview_img {
+		margin-top: 30px;
+	}
+	#section2_ralph_seo .ecommerce_text p {
+		max-width: 320px;
+	}
+	#section2_ralph_seo .small_logo {
+		text-align: center;
+	}
+	#section2_ralph_seo .small_logo img {
+		margin-top: 20px;
+	}
+
+	#section3_ralph_advertising .advertising_img img {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	#section3_ralph_advertising .social_text {
+		float: right;
+	}
+	#section3_ralph_advertising .social_text span {
+		left: 0;
+		color: #a3bdd5;
+	}
+	#section3_ralph_advertising .social_text h2 {
+		padding-left: 40px;
+	}
+	#section4_ralph_design .preview_img {
+		margin-top: 0;
+	}
+	#section4_ralph_design {
+		padding-top: 100px;
+	}
+	/*----------------------ralph_lauren_end----------------------*/
+	#section1_orphan .body_glove_img img {
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	#section1_orphan .glove_text {
+		margin-bottom: 40px;
+	}
+	.poster_text_img img {
+		max-width: 100%;
+		width: 100%;
+	}
+	#section3_orphan_website {
+		padding-top: 100px;
+	}
+	#section3_orphan_website .preview_img {
+		margin-top: 40px;
+		margin-bottom: 100px;
+	}
+	#section3_orphan_website .ecommerce_text p {
+		max-width: 400px;
+	}
+	#section5_orphan_marketing .email_text {
+		margin-top: 100px;
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	.network_icon {
+		margin-top: 50px;
+	}
+	.network_icon a {
+		margin: 0;
+	}
+	.orphan_right_img {
+		max-width: 100%;
+		text-align: center;
+	}
+	.orphan_right_img img {
+		margin-top: 40px;
+		width: 70%;
+		float: none;
+		display: inline-block;
+	}
+
+	/** casestudies page end **/
+
+	.slider_mac{
+		width: 450px;
+		padding: 13px;
+		height: 360px;
+	}
+	.screen_slider{
+		width: 424px;
+	}
+
+	.contact_category_list ul li a span{
+		font-size: 12px;
+	}
+
+	.game_content,
+	.game_content iframe{
+		display: none !important;
+	}
+
+	#sec_email_marketing{
+		min-height: 500px;
+	}
+
+	.em_sec_title{
+		padding: 50px 10px;
+		min-height: 170px;
+	}
+
+	.sec_title_grant_wr h1{
+		font-size: 34px;
+	}
+	.sec_title_grant_wr:before{
+		right: -50px;
+	}
+
+	.sec_block_150{
+		padding-bottom: 40px;
+		padding-top: 60px;
+	}
+
+	.sec_title_right, .sec_title_left{
+		margin-bottom: 40px;
+	}
+
+	#cs_sec_advertising{
+		min-height: 500px;
+	}
+
+	.homeSliderHeight{
+		height: 320px !important;
+	}
+
+	.onet_poster_container {
+		height: 550px;
+		width: 320px;
+	}
+
+	.vbar{
+		height: 380px;
+	}
+
+
+}
+@media only screen and (max-width: 480px){
+
+	.game_chess
+	{
+		display:none;
+	}
+
+	.glove_text {
+		margin-bottom: 40px;
+	}
+	.glove_text h3 {
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+	.glove_text p {
+		font-size: 10px;
+	}
+	.glove_text_who h2 {
+		font-size: 36px;
+		margin-bottom: 15px;
+	}
+	.glove_text_who p {
+		font-size: 12px;
+	}
+	.social_icon ul li {
+		max-width: 26%;
+		width: 100%;
+	}
+
+	.text span,
+	.text h2 {
+		font-size: 30px;
+	}
+	.mail_champ {
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+	.mail_champ img {
+		float: none;
+	}
+	.mail_champ p {
+		padding: 0 10px;
+		margin: 0;
+	}
+	.email_text {
+		margin-top: 50px;
+	}
+	#section4_app_design .preview_img img {
+		width: 100%;
+	}
+	/*-----------------------body_glove_end-------------------------*/
+	#section3_ralph_advertising .social_text {
+		max-width: 70%;
+		margin-bottom: 10px;
+	}
+	#section3_ralph_advertising .social_text h2 {
+		margin-bottom: 20px;
+	}
+	#section3_ralph_advertising .social_media {
+		padding-left: 20px;
+	}
+	/*-----------------------ralph_lauren_end-----------------------*/
+	.network_icon a img {
+		padding-bottom: 20px;
+	}
+
+	/** casestudies page end **/
+
+
+	.footer_social,
+	.footer_logo{
+		display: inline-block;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.logo_pwi_text{
+		padding: 0 0 15px;
+	}
+
+	.team_content .col-xs-6{
+		width: 100%;
+		float: none;
+	}
+
+	.lean_img{
+		max-width: 350px;
+		min-height: 350px;
+	}
+
+	.slider_mac{
+		width: 350px;
+		padding: 10px;
+		height: 282px;
+	}
+	.screen_slider{
+		width: 330px;
+	}
+
+	.tab-content {
+		padding: 30px 0 20px 100px;
+	}
+	.nav-tabs > li > a{
+		height: 60px;
+		width: 60px;
+	}
+	#tabMenu{
+		width: 80px;
+	}
+	.sec_desc p{
+		font-size: 15px;
+	}
+
+	.contact_form .input_right,
+	.contact_form .input_left{
+		width: 100%;
+	}
+
+	.contact_category_list ul li{
+		width: 33.333%;
+	}
+
+	.sec_title_grant_wr h1{
+		font-size: 30px;
+	}
+	.sec_title_grant_wr:before{
+		right: -50px;
+	}
+
+	#cs_sec_advertising{
+		min-height: 450px;
+	}
+
+	.sub_title h2,
+	.post_title h1,
+	.banner_caption h1,
+	.sec_content h1{
+		font-size: 36px;
+	}
+
+	.banner_menu li a{
+		font-size: 14px;
+	}
+
+	.post_date{
+		font-size: 20px;
+	}
+
+	.home_sec_top{
+		padding: 70px 0 20px;
+	}
+
+	.homeSliderHeight{
+		height: 270px !important;
+	}
+
+	.onet_poster_container {
+		height: 420px;
+		width: 240px;
+	}
+
+	.vbar{
+		height: 270px;
+	}
+	
+}
+@media only screen and (max-width: 390px){
+	.cs_sec_title{
+		padding-left: 0;
+	}
+	.cs_sec_title h1{
+		padding-left: 45px;
+	}
+	.lean_img{
+		max-width: 300px;
+		min-height: 300px;
+	}
+
+	.slider_mac{
+		width: 280px;
+		padding: 8px;
+		height: 224px;
+	}
+	.screen_slider{
+		width: 264px;
+	}
+
+	.sub_title h2,
+	.post_title h1,
+	.banner_caption h1,
+	.sec_content h1{
+		font-size: 30px;
+	}
+
+
+	.social_icon ul {
+		padding: 15px 0 0 2%;
+	}
+
+	.homeSliderHeight{
+		height: 220px !important;
+	}
+
+	.onet_poster_container {
+		height: 390px;
+		width: 70%;
+		margin-left: 20%;
+	}
+
+	.vbar{
+		height: 210px;
+	}
+
+	#section4_orphan_email .email_img img{
+		margin-bottom: 170px;
+	}
+
+	#section4_orphan_email{
+		padding-top: 50px;
+	}
+}
+@media only screen and (max-width: 320px){
+	.cf_desc span a{
+		width: 170px;
+	}
+
+	.homeSliderHeight{
+		height: 200px !important;
+	}
+}
+@media only screen and (max-width: 280px){
+	.contact_category_list ul li{
+		width: 50%;
+	}
+
+	input[type="submit"], .button,
+	.contact_form .button{
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width:768px){}
+@media only screen and (min-width:992px){}
+@media only screen and (min-width:1200px){
+	.cs_sec_title{
+		margin-left: -70px;
+	}
+}
+
+
+@media all and (min-width: 1300px) and (max-width:	2000px) {
+	#multipul_img_slider {
+		margin-left: -30px;
+		position: relative;
+	}
+	.diplay_none {
+		visibility: hidden;
+	} 
+
+	#section4_ralph_design .multipul_mobile{
+		background: url(../images/chipotle_app_screenshot_3.png) no-repeat center center;
+		background-size: 100%;
+	}
+	#section4_app_design .multipul_mobile2{
+		background: url(../images/chipotle_app_screenshot_2.png) no-repeat center center;
+		background-size: 100%;
+	}
+}
