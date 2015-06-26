@@ -374,6 +374,11 @@
 		text-align: center;
 	}
 
+	#slider,
+	.vbar{
+		height: 630px;
+	}
+
 }
 
 
@@ -953,7 +958,7 @@
 		position: relative;
 		width: 450px;
 	}
-
+	#slider,
 	.vbar{
 		height: 560px;
 	}
@@ -1224,6 +1229,7 @@
 		width: 320px;
 	}
 
+	#slider,
 	.vbar{
 		height: 380px;
 	}
@@ -1390,11 +1396,16 @@
 
 	.onet_poster_container {
 		height: 420px;
-		width: 240px;
+		width: 250px;
+	}
+	#slider,
+	.vbar{
+		height: 270px;
 	}
 
 	.vbar{
-		height: 270px;
+		left: -40px;
+		top: 60px;
 	}
 	
 }
@@ -1436,13 +1447,13 @@
 	}
 
 	.onet_poster_container {
-		height: 390px;
-		width: 70%;
-		margin-left: 20%;
+		height: 350px;
+		width: 210px;
 	}
 
+	#slider,
 	.vbar{
-		height: 210px;
+		height: 230px;
 	}
 
 	#section4_orphan_email .email_img img{
@@ -1461,6 +1472,17 @@
 	.homeSliderHeight{
 		height: 200px !important;
 	}
+
+	.onet_poster_container {
+		height: 350px;
+		width: 180px;
+	}
+
+	#slider,
+	.vbar{
+		height: 200px;
+	}
+
 }
 @media only screen and (max-width: 280px){
 	.contact_category_list ul li{

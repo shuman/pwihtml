@@ -146,19 +146,13 @@
                         <div class="poster_text_img">
                             <p>PWI designed an informational handout about ORPHANetwork's year in review, distributed to donors in conjunction with the anniversary celebration poster.</p>
                             <div class="onet_poster_container text-center">
-                                <!-- <img id="op_step_1" src="images/onet_poster_step_1.png">
-                                <img class="op_step_2" src="images/onet_poster_step_2.png">
-                                <img class="op_step_3" src="images/onet_poster_step_3.png">
-                                <img class="op_step_4" src="images/onet_poster_step_4.png">
-                                <img class="op_step_5" src="images/onet_poster_step_5.png">
-                                <img class="op_step_6" src="images/onet_poster_step_6.png"> -->
-
-                                <img class="onet_posters op_step_6" src="images/onet_poster_step_6.png" style="opacity:1;">
-                                <img class="onet_posters op_step_5" src="images/onet_poster_step_5.png" style="opacity:0;">
-                                <img class="onet_posters op_step_4" src="images/onet_poster_step_4.png" style="opacity:0;">
-                                <img class="onet_posters op_step_3" src="images/onet_poster_step_3.png" style="opacity:0;">
-                                <img class="onet_posters op_step_2" src="images/onet_poster_step_2.png" style="opacity:0;">
-                                <img class="onet_posters op_step_1" src="images/onet_poster_step_1.png" style="opacity:0;">
+                                <img class="onet_posters op_step_7" src="images/onet_poster_step_6.png" style="opacity:1;">
+                                <img class="onet_posters op_step_6" src="images/onet_poster_step_5.png" style="opacity:0;">
+                                <img class="onet_posters op_step_5" src="images/onet_poster_step_4.png" style="opacity:0;">
+                                <img class="onet_posters op_step_4" src="images/onet_poster_step_3.png" style="opacity:0;">
+                                <img class="onet_posters op_step_3" src="images/onet_poster_step_2.png" style="opacity:0;">
+                                <img class="onet_posters op_step_2" src="images/onet_poster_step_1.png" style="opacity:0;">
+                                <img class="onet_posters op_step_1" src="images/onet_poster_step_0.jpg" style="opacity:0;">
 
                                 <div class="vbar"><div id="slider"></div></div>
                             </div>
@@ -278,41 +272,47 @@
         </footer><!-- /footer -->
     </div><!-- /wrap -->
     <script type="text/javascript">
-        $( "#slider" ).slider({
-            orientation: "vertical",
-            min: 0,
-            max: 500,
-            value: 500,
-            animate: true,
-            slide: function( event, ui ) {
-                var scrollVal = ui.value;
+        jQuery(document).ready(function($) {
+            var totalImage = $(".onet_poster_container img").length;
+            var minVal = 0;
+            var maxVal = totalImage * 100;
 
-                var slideNumber = Math.floor(scrollVal / 100);
-                slideNumber = slideNumber +1;
+            console.log(totalImage);
 
-                var sliderPercent = (slideNumber * 100) - scrollVal;
-                sliderPercent = sliderPercent / 100;
-                // sliderPercent = (100 - sliderPercent) / 100; // Reverse percent
-                
-                if(slideNumber < 6){
-                    $(".op_step_" + slideNumber).css('opacity', sliderPercent);
-                }
+            setTimeout(function(){
+                $( "#slider" ).slider({
+                    orientation: "vertical",
+                    min: minVal,
+                    max: maxVal,
+                    value: maxVal,
+                    animate: true,
+                    slide: function( event, ui ) {
+                        var scrollVal = ui.value;
 
-                if(scrollVal >= 498){
-                    $(".onet_posters").css('opacity', 0);
-                    $(".op_step_6").css('opacity', 1);
-                }
+                        var slideNumber = Math.floor(scrollVal / 100);
+                        slideNumber = slideNumber +1;
 
-                if(scrollVal < 5){
-                    $(".onet_posters").css('opacity', 1);
-                }
+                        var sliderPercent = (slideNumber * 100) - scrollVal;
+                        sliderPercent = sliderPercent / 100;
+                        // sliderPercent = (100 - sliderPercent) / 100; // Reverse percent
+                        
+                        if(slideNumber < totalImage){
+                            $(".op_step_"+slideNumber).css('opacity', sliderPercent);
+                        }
 
-                /*console.log(
-                    "slideNumber:" + slideNumber + '\n' +
-                    // "opacity:" + opacity + '\n' +
-                    "sliderPercent:" + sliderPercent + '\n' +
-                '');*/
-            }
+                        if( scrollVal >= (maxVal - 10) ){
+                            $(".onet_posters").css('opacity', 0);
+                            $(".op_step_7").css('opacity', 1);
+                        }
+
+                        if(scrollVal < 10){
+                            $(".onet_posters").css('opacity', 1);
+                        }
+                    }
+                });
+            },3000);
+
+
         });
     </script>
 
